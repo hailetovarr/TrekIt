@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDB8139C2C189AFA006C49F0 /* TrekItApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB8139B2C189AFA006C49F0 /* TrekItApp.swift */; };
+		BDB8139E2C189AFA006C49F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB8139D2C189AFA006C49F0 /* ContentView.swift */; };
+		BDB813A02C189AFE006C49F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB8139F2C189AFE006C49F0 /* Assets.xcassets */; };
+		BDB813A32C189AFE006C49F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB813A22C189AFE006C49F0 /* Preview Assets.xcassets */; };
+		BDB813AD2C189AFE006C49F0 /* TrekItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB813AC2C189AFE006C49F0 /* TrekItTests.swift */; };
+		BDB813B72C189AFE006C49F0 /* TrekItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB813B62C189AFE006C49F0 /* TrekItUITests.swift */; };
+		BDB813B92C189AFE006C49F0 /* TrekItUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB813B82C189AFE006C49F0 /* TrekItUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDB813A92C189AFE006C49F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDB813902C189AFA006C49F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB813972C189AFA006C49F0;
+			remoteInfo = TrekIt;
+		};
+		BDB813B32C189AFE006C49F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDB813902C189AFA006C49F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB813972C189AFA006C49F0;
+			remoteInfo = TrekIt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDB813982C189AFA006C49F0 /* TrekIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrekIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB8139B2C189AFA006C49F0 /* TrekItApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekItApp.swift; sourceTree = "<group>"; };
+		BDB8139D2C189AFA006C49F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BDB8139F2C189AFE006C49F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDB813A22C189AFE006C49F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDB813A82C189AFE006C49F0 /* TrekItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrekItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB813AC2C189AFE006C49F0 /* TrekItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekItTests.swift; sourceTree = "<group>"; };
+		BDB813B22C189AFE006C49F0 /* TrekItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrekItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB813B62C189AFE006C49F0 /* TrekItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekItUITests.swift; sourceTree = "<group>"; };
+		BDB813B82C189AFE006C49F0 /* TrekItUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekItUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDB813952C189AFA006C49F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB813A52C189AFE006C49F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB813AF2C189AFE006C49F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDB8138F2C189AFA006C49F0 = {
+			isa = PBXGroup;
+			children = (
+				BDB8139A2C189AFA006C49F0 /* TrekIt */,
+				BDB813AB2C189AFE006C49F0 /* TrekItTests */,
+				BDB813B52C189AFE006C49F0 /* TrekItUITests */,
+				BDB813992C189AFA006C49F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDB813992C189AFA006C49F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDB813982C189AFA006C49F0 /* TrekIt.app */,
+				BDB813A82C189AFE006C49F0 /* TrekItTests.xctest */,
+				BDB813B22C189AFE006C49F0 /* TrekItUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDB8139A2C189AFA006C49F0 /* TrekIt */ = {
+			isa = PBXGroup;
+			children = (
+				BDB8139B2C189AFA006C49F0 /* TrekItApp.swift */,
+				BDB8139D2C189AFA006C49F0 /* ContentView.swift */,
+				BDB8139F2C189AFE006C49F0 /* Assets.xcassets */,
+				BDB813A12C189AFE006C49F0 /* Preview Content */,
+			);
+			path = TrekIt;
+			sourceTree = "<group>";
+		};
+		BDB813A12C189AFE006C49F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BDB813A22C189AFE006C49F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BDB813AB2C189AFE006C49F0 /* TrekItTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDB813AC2C189AFE006C49F0 /* TrekItTests.swift */,
+			);
+			path = TrekItTests;
+			sourceTree = "<group>";
+		};
+		BDB813B52C189AFE006C49F0 /* TrekItUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDB813B62C189AFE006C49F0 /* TrekItUITests.swift */,
+				BDB813B82C189AFE006C49F0 /* TrekItUITestsLaunchTests.swift */,
+			);
+			path = TrekItUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDB813972C189AFA006C49F0 /* TrekIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB813BC2C189AFE006C49F0 /* Build configuration list for PBXNativeTarget "TrekIt" */;
+			buildPhases = (
+				BDB813942C189AFA006C49F0 /* Sources */,
+				BDB813952C189AFA006C49F0 /* Frameworks */,
+				BDB813962C189AFA006C49F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrekIt;
+			productName = TrekIt;
+			productReference = BDB813982C189AFA006C49F0 /* TrekIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDB813A72C189AFE006C49F0 /* TrekItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB813BF2C189AFE006C49F0 /* Build configuration list for PBXNativeTarget "TrekItTests" */;
+			buildPhases = (
+				BDB813A42C189AFE006C49F0 /* Sources */,
+				BDB813A52C189AFE006C49F0 /* Frameworks */,
+				BDB813A62C189AFE006C49F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB813AA2C189AFE006C49F0 /* PBXTargetDependency */,
+			);
+			name = TrekItTests;
+			productName = TrekItTests;
+			productReference = BDB813A82C189AFE006C49F0 /* TrekItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDB813B12C189AFE006C49F0 /* TrekItUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB813C22C189AFE006C49F0 /* Build configuration list for PBXNativeTarget "TrekItUITests" */;
+			buildPhases = (
+				BDB813AE2C189AFE006C49F0 /* Sources */,
+				BDB813AF2C189AFE006C49F0 /* Frameworks */,
+				BDB813B02C189AFE006C49F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB813B42C189AFE006C49F0 /* PBXTargetDependency */,
+			);
+			name = TrekItUITests;
+			productName = TrekItUITests;
+			productReference = BDB813B22C189AFE006C49F0 /* TrekItUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDB813902C189AFA006C49F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BDB813972C189AFA006C49F0 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BDB813A72C189AFE006C49F0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BDB813972C189AFA006C49F0;
+					};
+					BDB813B12C189AFE006C49F0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BDB813972C189AFA006C49F0;
+					};
+				};
+			};
+			buildConfigurationList = BDB813932C189AFA006C49F0 /* Build configuration list for PBXProject "TrekIt" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDB8138F2C189AFA006C49F0;
+			productRefGroup = BDB813992C189AFA006C49F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDB813972C189AFA006C49F0 /* TrekIt */,
+				BDB813A72C189AFE006C49F0 /* TrekItTests */,
+				BDB813B12C189AFE006C49F0 /* TrekItUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDB813962C189AFA006C49F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB813A32C189AFE006C49F0 /* Preview Assets.xcassets in Resources */,
+				BDB813A02C189AFE006C49F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB813A62C189AFE006C49F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB813B02C189AFE006C49F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDB813942C189AFA006C49F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB8139E2C189AFA006C49F0 /* ContentView.swift in Sources */,
+				BDB8139C2C189AFA006C49F0 /* TrekItApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB813A42C189AFE006C49F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB813AD2C189AFE006C49F0 /* TrekItTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB813AE2C189AFE006C49F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB813B72C189AFE006C49F0 /* TrekItUITests.swift in Sources */,
+				BDB813B92C189AFE006C49F0 /* TrekItUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDB813AA2C189AFE006C49F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDB813972C189AFA006C49F0 /* TrekIt */;
+			targetProxy = BDB813A92C189AFE006C49F0 /* PBXContainerItemProxy */;
+		};
+		BDB813B42C189AFE006C49F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDB813972C189AFA006C49F0 /* TrekIt */;
+			targetProxy = BDB813B32C189AFE006C49F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BDB813BA2C189AFE006C49F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDB813BB2C189AFE006C49F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDB813BD2C189AFE006C49F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrekIt/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.TrekIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDB813BE2C189AFE006C49F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrekIt/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.TrekIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDB813C02C189AFE006C49F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.TrekItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrekIt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrekIt";
+			};
+			name = Debug;
+		};
+		BDB813C12C189AFE006C49F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.TrekItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrekIt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrekIt";
+			};
+			name = Release;
+		};
+		BDB813C32C189AFE006C49F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.TrekItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrekIt;
+			};
+			name = Debug;
+		};
+		BDB813C42C189AFE006C49F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.TrekItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrekIt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDB813932C189AFA006C49F0 /* Build configuration list for PBXProject "TrekIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB813BA2C189AFE006C49F0 /* Debug */,
+				BDB813BB2C189AFE006C49F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB813BC2C189AFE006C49F0 /* Build configuration list for PBXNativeTarget "TrekIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB813BD2C189AFE006C49F0 /* Debug */,
+				BDB813BE2C189AFE006C49F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB813BF2C189AFE006C49F0 /* Build configuration list for PBXNativeTarget "TrekItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB813C02C189AFE006C49F0 /* Debug */,
+				BDB813C12C189AFE006C49F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB813C22C189AFE006C49F0 /* Build configuration list for PBXNativeTarget "TrekItUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB813C32C189AFE006C49F0 /* Debug */,
+				BDB813C42C189AFE006C49F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDB813902C189AFA006C49F0 /* Project object */;
+}
